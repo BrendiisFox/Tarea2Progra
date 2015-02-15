@@ -32,11 +32,13 @@ public class Rectangulo {
 	int getPerimetro()
 	{
 		return ((alt * b) *2);
+		*//Calculo el perimetro
 	}
 	
 	int getArea()
 	{
 		return (alt * b);
+		*//Calculo el area
 	}
 
 }
