@@ -2,7 +2,7 @@
 public class Rectangulo {
 	int b;
 	int alt;
-	
+	*// b= base alt= altura
 	Rectangulo(int b , int alt)
 	{
 		this.b = b;
@@ -32,13 +32,13 @@ public class Rectangulo {
 	int getPerimetro()
 	{
 		return ((alt * b) *2);
-		*//Calculo el perimetro
+		*//Calculo el perimetro de un rectangulo
 	}
 	
 	int getArea()
 	{
 		return (alt * b);
-		*//Calculo el area
+		*//Calculo el area de un rectagulo
 	}
 
 }
