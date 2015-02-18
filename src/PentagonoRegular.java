@@ -3,9 +3,9 @@ public class PentagonoRegular {
 
 	int l;
 	*// l = lado
-	PentagonoRegular(int lado)
+	PentagonoRegular(int l)
 	{
-		this.l = lado;
+		this.l = l;
 	}
 	
 	int getLado()
@@ -13,9 +13,9 @@ public class PentagonoRegular {
 		return l;
 	}
 	
-	void setLado(int lado)
+	void setLado(int l)
 	{
-		this.l = lado;
+		this.l = l;
 	}
 	
 	int getPerimetro()
