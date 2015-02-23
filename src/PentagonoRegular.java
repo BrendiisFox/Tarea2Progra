@@ -2,7 +2,7 @@
 public class PentagonoRegular {
 
 	int l;
-	*// l = lado
+	// l = lado
 	PentagonoRegular(int l)
 	{
 		this.l = l;
@@ -21,6 +21,6 @@ public class PentagonoRegular {
 	int getPerimetro()
 	{
 		return l * 5;
-		*//calculo de are de un pentagono regular
+		//calculo de are de un pentagono regular
 	}
 }
